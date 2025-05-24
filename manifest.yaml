@@ -1,0 +1,39 @@
+version: 0.0.1
+type: plugin
+author: solaoi
+name: slack-post
+label:
+  en_US: Slack Post
+  ja_JP: Slack Post
+  zh_Hans: Slack Post
+  pt_BR: Slack Post
+description:
+  en_US: "A Slack tool plugin for posting messages to channels or threads, with mrkdwn formatting."
+  ja_JP: "チャンネルやスレッドへのメッセージ投稿を行う、mrkdwn形式の表示に対応したSlackツールプラグイン。"
+  zh_Hans: "支持向频道或线程发送消息、并支持mrkdwn格式的Slack工具插件。"
+  pt_BR: "Um plugin de ferramenta do Slack para postar mensagens em canais ou threads, com suporte à formatação mrkdwn."
+icon: icon.svg
+tags: ['productivity','social']
+resource:
+  memory: 1048576
+  permission:
+    model:
+      enabled: true
+      llm: true
+    tool:
+      enabled: true
+plugins:
+  tools:
+    - provider/slack_post.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-19T00:00:00Z
+privacy: PRIVACY.md
+verified: false
