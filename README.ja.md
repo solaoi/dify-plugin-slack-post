@@ -1,4 +1,4 @@
-*他の言語で読む: [English](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.md), [简体中文](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.zh-Hans.md), [Português](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.pt_BR.md).*
+*他の言語で読む: [English](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.md), [简体中文](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.zh-Hans.md), [Português](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.pt_BR.md).*
 
 ![license](https://img.shields.io/github/license/solaoi/dify-plugin-slack-post)
 
@@ -7,7 +7,7 @@
 <img width="120" alt="Image" src="_assets/icon.svg">
 
 **Author:** solaoi
-**Version:** 0.0.1
+**Version:** 0.0.2
 **Type:** 道具
 
 ### 解説
@@ -71,6 +71,10 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | content | スレッドに投稿するメッセージ内容 |
 
 ##### 3.3. Slackリアクション追加
+
+<div align="left">
+  <img src="_assets/how_to_use_3_ja.png" width="50%"/>
+</div>
 
 | 入力変数 | 説明 |
 | ---- | ---- |
