@@ -21,3 +21,4 @@ identity:
 tools:
   - tools/slack_post_to_thread.yaml
   - tools/slack_post_to_channel.yaml
+  - tools/slack_add_reaction.yaml
