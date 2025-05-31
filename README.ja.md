@@ -23,6 +23,7 @@
 - スレッド内でのメッセージ投稿
 - チャンネルへのメッセージ投稿
 - Slack 上での `mrkdwn` フォーマットに対応
+- メッセージにリアクションを追加
 
 #### 1. インストール方法
 
@@ -37,7 +38,7 @@ https://github.com/solaoi/dify-plugin-slack-post
 ##### 2-2. 本プラグインの利用には、以下のスコープが必要です。
 
 ```text
-chat:write
+chat:write, reactions:write
 ```
 
 ##### 2-3. 公式のSlackBotプラグインのセットアップ手順については以下をご参照ください。
@@ -68,6 +69,14 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | thread_ts | Slack スレッドTS |
 | channel_id | Slack チャンネルID |
 | content | スレッドに投稿するメッセージ内容 |
+
+##### 3.3. Slackリアクション追加
+
+| 入力変数 | 説明 |
+| ---- | ---- |
+| channel_id | Slack チャンネルID |
+| timestamp | Slackメッセージのタイムスタンプ |
+| icon_name | 追加する絵文字の名前 |
 
 #### 4. オプション
 
