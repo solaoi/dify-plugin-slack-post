@@ -79,8 +79,8 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | 输入变量 | 说明 |
 | ---- | ---- |
 | channel_id | Slack 频道ID |
-| timestamp | Slack 消息的时间戳 |
 | icon_name | 要添加的表情名称 |
+| timestamp | Slack 消息的时间戳 |
 
 #### 4. 可选功能
 

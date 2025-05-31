@@ -79,8 +79,8 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | Input Variable | Description |
 | ---- | ---- |
 | channel_id | Slack channel ID |
-| timestamp | Timestamp of the Slack message |
 | icon_name | Name of the emoji to add |
+| timestamp | Timestamp of the Slack message |
 
 #### 4. Optional
 

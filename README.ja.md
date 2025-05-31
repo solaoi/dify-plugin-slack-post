@@ -79,8 +79,8 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | 入力変数 | 説明 |
 | ---- | ---- |
 | channel_id | Slack チャンネルID |
-| timestamp | Slackメッセージのタイムスタンプ |
 | icon_name | 追加する絵文字の名前 |
+| timestamp | Slackメッセージのタイムスタンプ |
 
 #### 4. オプション
 
