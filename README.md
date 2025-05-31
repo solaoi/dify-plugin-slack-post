@@ -23,6 +23,7 @@ A Slack tool plugin for posting messages to channels or threads, with mrkdwn for
 - Post messages in a thread
 - Post messages to a channel
 - Supports Slack’s `mrkdwn` formatting
+- Add emoji reactions to messages
 
 #### 1. Install
 
@@ -37,7 +38,7 @@ https://github.com/solaoi/dify-plugin-slack-post
 ##### 2-2. The following scopes are required for this plugin:
 
 ```text
-chat:write
+chat:write, reactions:write
 ```
 
 ##### 2-3. For more details on setup the official SlackBot plugin, refer to:
@@ -68,6 +69,14 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | thread_ts | Slack thread TS |
 | channel_id | Slack channel ID |
 | content | Content to be sent to the thread |
+
+##### 3.3. Slack Add Reaction
+
+| Input Variable | Description |
+| ---- | ---- |
+| channel_id | Slack channel ID |
+| timestamp | Timestamp of the Slack message |
+| icon_name | Name of the emoji to add |
 
 #### 4. Optional
 

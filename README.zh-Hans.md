@@ -20,9 +20,10 @@
 
 #### 功能
 
-- 在线程中发送消息  
-- 在频道中发送消息  
+- 在线程中发送消息
+- 在频道中发送消息
 - 支持Slack的 `mrkdwn` 格式
+- 为消息添加表情反应
 
 #### 1. 安装
 
@@ -37,7 +38,7 @@ https://github.com/solaoi/dify-plugin-slack-post
 ##### 2-2. 插件需要以下权限范围（Scopes）：
 
 ```text
-chat:write
+chat:write, reactions:write
 ```
 
 ##### 2-3. 有关官方SlackBot插件的详细设置步骤，请参考：
@@ -68,6 +69,14 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | thread_ts | Slack 线程TS |
 | channel_id | Slack 频道ID |
 | content | 要发送到线程的消息内容 |
+
+##### 3.3. Slack 添加表情
+
+| 输入变量 | 说明 |
+| ---- | ---- |
+| channel_id | Slack 频道ID |
+| timestamp | Slack 消息的时间戳 |
+| icon_name | 要添加的表情名称 |
 
 #### 4. 可选功能
 

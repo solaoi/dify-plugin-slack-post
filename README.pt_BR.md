@@ -20,9 +20,10 @@ Um plugin de ferramenta do Slack para postar mensagens em canais ou threads, com
 
 #### Recursos
 
-- Enviar mensagens em uma thread  
-- Enviar mensagens em um canal  
+- Enviar mensagens em uma thread
+- Enviar mensagens em um canal
 - Suporta o formato `mrkdwn` do Slack
+- Adicionar reações a mensagens
 
 #### 1. Instalação
 
@@ -37,7 +38,7 @@ https://github.com/solaoi/dify-plugin-slack-post
 ##### 2-2. Este plugin requer os seguintes escopos:
 
 ```text
-chat:write
+chat:write, reactions:write
 ```
 
 ##### 2-3. Para mais detalhes sobre a configuração do plugin oficial SlackBot, consulte:
@@ -68,6 +69,14 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | thread_ts | Slack thread TS |
 | channel_id | Slack channel ID |
 | content | Conteúdo a ser enviado para o thread |
+
+##### 3.3. Slack Add Reaction
+
+| Variável de entrada | Descrição |
+| ---- | ---- |
+| channel_id | Slack channel ID |
+| timestamp | Timestamp da mensagem do Slack |
+| icon_name | Nome do ícone emoji a ser adicionado |
 
 #### 4. Optional
 
