@@ -1,4 +1,4 @@
-*以其他语言阅读：[English](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.md)，[日本語](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.ja.md)，[Português](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.1/README.pt_BR.md)。*
+*以其他语言阅读：[English](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.md)，[日本語](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.ja.md)，[Português](https://github.com/solaoi/dify-plugin-slack-post/blob/v0.0.2/README.pt_BR.md)。*
 
 ![license](https://img.shields.io/github/license/solaoi/dify-plugin-slack-post)
 
@@ -7,7 +7,7 @@
 <img width="120" alt="Image" src="_assets/icon.svg">
 
 **Author:** solaoi
-**Version:** 0.0.1
+**Version:** 0.0.2
 **Type:** 工具
 
 ### 描述
@@ -71,6 +71,10 @@ https://github.com/langgenius/dify-official-plugins/blob/main/extensions/slack_b
 | content | 要发送到线程的消息内容 |
 
 ##### 3.3. Slack 添加表情
+
+<div align="left">
+  <img src="_assets/how_to_use_3_zh.png" width="50%"/>
+</div>
 
 | 输入变量 | 说明 |
 | ---- | ---- |
