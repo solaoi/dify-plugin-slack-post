@@ -51,11 +51,11 @@ parameters:
       zh_Hans: icon_name
       ja_JP: icon_name
     human_description:
-      en_US: Name of the emoji icon (e.g., thumbsup)
-      pt_BR: Nome do ícone emoji (ex: thumbsup)
-      zh_Hans: 表情符号名称（例如 thumbsup）
-      ja_JP: 絵文字の名前（例: thumbsup）
-    llm_description: The emoji name to add as a reaction.
+      en_US: "Emoji name without surrounding colons (e.g., 'thumbsup' for :thumbsup:)"
+      pt_BR: "Nome do emoji sem os dois-pontos (ex.: 'thumbsup' para :thumbsup:)"
+      zh_Hans: "去掉两端冒号的表情名称（例如 :thumbsup: 写为 'thumbsup'）"
+      ja_JP: "Slack上では :thumbsup: と記載するため、コロン(:)で囲まない絵文字名（thumbsup など）を入力"
+    llm_description: "The emoji name to add as a reaction, without the surrounding ':' characters."
     form: llm
 
   - name: timestamp
